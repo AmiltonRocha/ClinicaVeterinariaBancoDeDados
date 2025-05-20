@@ -14,7 +14,7 @@ public class Main {
         );
 
         // Criando um pet
-        Pet pet = new Pet("Rex", "Cachorro", "Labrador", 3, 25.5f);
+        Pet pet = new Pet("Pingu", "Cachorro", "Cavalier", 3, 25.5f);
         tutor.adicionarPet(pet);
 
         // Criando uma receita
