@@ -9,7 +9,7 @@ public class Main {
 
         // Criando um tutor
         Tutor tutor = new Tutor(
-            "João", "987.654.321-00", "11988888888", "joao@email.com",
+            "Amilton", "987.654.321-00", "11988888888", "joao@email.com",
             "Rua B", "Jardim", "São Paulo", "SP", "Apto 101"
         );
 
@@ -19,7 +19,7 @@ public class Main {
 
         // Criando uma receita
         Receita receita = new Receita("2024-03-20");
-        MedicamentoConcreto medicamento = new MedicamentoConcreto("Antipulgas", "50.00", "1", "2025-12-31", "100mg");
+        MedricamentoReceita medicamento = new MedricamentoReceita("Antipulgas", "50.00", "1", "2025-12-31", "100mg");
         receita.adicionarMedicamento(medicamento);
 
         // Criando uma consulta
